@@ -1,0 +1,24 @@
+artifact_path: /Users/tsheringwangpodorji/Desktop/DAM405_Assignment_03/mlruns/1/models/m-b12cdf004e9d42b99fc6b51b3218b659/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.12.14
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.9.1
+    skops_trusted_types:
+    - sklearn.tree._tree.Tree
+mlflow_version: 3.17.1
+model_id: m-b12cdf004e9d42b99fc6b51b3218b659
+model_size_bytes: 1837362
+model_uuid: m-b12cdf004e9d42b99fc6b51b3218b659
+prompts: null
+run_id: c8d50c0bdac94995a9181f04eef5b18a
+utc_time_created: '2026-10-20 03:40:00.948220'
